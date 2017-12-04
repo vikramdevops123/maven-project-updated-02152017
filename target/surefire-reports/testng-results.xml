@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20632" started-at="2017-12-05T00:14:53Z" finished-at="2017-12-05T00:15:14Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20632" started-at="2017-12-05T00:14:53Z" finished-at="2017-12-05T00:15:14Z">
+      <class name="Demo1.GoogleTest">
+        <test-method status="PASS" signature="homepage()" name="homepage" duration-ms="20601" started-at="2017-12-05T00:14:53Z" finished-at="2017-12-05T00:15:14Z">
+        </test-method>
+      </class>
+      <class name="Demo1.Regression2">
+        <test-method status="PASS" signature="RT()" name="RT" duration-ms="1" started-at="2017-12-05T00:15:14Z" finished-at="2017-12-05T00:15:14Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
