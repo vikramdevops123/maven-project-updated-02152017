@@ -21,6 +21,7 @@ public class Mananproject {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		driver.get(URL);
+		Thread.sleep(10000);
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
 		jse.executeScript("window.scrollBy(0,2350)", "");
 		
