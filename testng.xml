@@ -5,6 +5,8 @@
     <classes>
       <class name="Demo1.GoogleTest"/>
       <class name="Demo1.Regression2"/>
+      <class name="Demo1.manan"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
