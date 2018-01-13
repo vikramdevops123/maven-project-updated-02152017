@@ -5,7 +5,7 @@
     <classes>
       <class name="Demo1.GoogleTest"/>
       <class name="Demo1.Regression2"/>
-      <class name="Demo1.manan"/>
+      <class name="Demo1.Mananproject"/>
       
     </classes>
   </test> <!-- Test -->
