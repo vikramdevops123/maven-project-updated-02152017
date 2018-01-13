@@ -25,8 +25,8 @@ public class Mananproject {
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
 		jse.executeScript("window.scrollBy(0,2350)", "");
 		
-		//WebDriverWait wait=new WebDriverWait(driver,100);
-		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[1]/div/div[9]/div[1]/form/a/span[2]")));
+		WebDriverWait wait=new WebDriverWait(driver,100);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[1]/div/div[9]/div[1]/form/a/span[2]")));
 		
 		driver.findElement(By.xpath("/html/body/div[1]/div/div[9]/div[1]/form/a/span[2]")).click();
 		
